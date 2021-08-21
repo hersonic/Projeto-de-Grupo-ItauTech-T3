@@ -43,6 +43,8 @@ a {
   margin-top: 2%;
 }
 
+/*HEAD(Cabeça) menu do site*/
+
 .header {
   background: red;
   display: flex;
@@ -51,6 +53,7 @@ a {
   padding: 0.5rem;
   align-items: center;
 }
+
 
 .menu {
   display: flex;
@@ -71,7 +74,7 @@ nav ul li a:hover {
   font-size: 1.3rem;
   border-radius: 5px;
 }
-
+/* imagem da capa do site/ TELA INICIAL*/
 .imagemCapa {
   display: inline-block;
   position: relative;
@@ -147,10 +150,21 @@ p {
   text-align: center;
 }
 
+.cardVideo iframe{
+  box-shadow: black 1px 3px 5px;
+  border-radius: 20px;
+}
 .cardVideo > iframe {
   width: 100%;
   height: 300px!important;
   margin-top: 3%;
+}
+
+.imgHivVirus img{
+  width: 100%;
+  border-radius: 20px;
+  border: gray 2px;
+  box-shadow: black 1px 3px 5px;
 }
 
 .tituloNews {
