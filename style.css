@@ -193,7 +193,7 @@ p {
   background-color: rgb(68, 2, 190) ;
   border-radius: 10px;
   border: silver;
-  box-shadow: yellow 1px 3px 5px ; 
+  box-shadow: rgb(12, 12, 12) 1px 3px 5px ; 
 }
 
 .textNews{
@@ -230,4 +230,10 @@ p {
 
 color: black;
 
+}
+
+.imgnoticias img{
+  width: 100%;
+  height: 100%;
+ 
 }
