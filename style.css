@@ -19,7 +19,7 @@ body, ul, li, p {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: rgb(206, 206, 206);
 }
 
 .logo {
@@ -88,7 +88,7 @@ h1 {
 }
 
 h2 {
-  color: #132C33;
+  color: #ff0000;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -103,7 +103,7 @@ h3 {
 p {
   text-align: justify;
   font-size: 1.5rem;
-  color: #132C33;
+  color: #000000;
 }
 
 .activePage {
@@ -169,7 +169,7 @@ p {
 
 .tituloNews {
   font-weight: bold;
-  color: #132C33;
+  color: #000000;
 }
 
 .descNews > iframe {
@@ -190,7 +190,7 @@ p {
   padding: 2%;
   width: 50%;
   text-align: center;
-  background-color: yellow ;
+  background-color: rgb(68, 2, 190) ;
   border-radius: 10px;
   border: silver;
   box-shadow: yellow 1px 3px 5px ; 
@@ -201,7 +201,7 @@ p {
   padding: 2%;
   font-weight: lighter;
   font-size: 1.2rem ;
-  color: #132C33;
+  color: #ffffff;
 }
 
 .footer {
