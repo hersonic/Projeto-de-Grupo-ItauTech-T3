@@ -5,9 +5,9 @@
 }
 
 .img01{
-  border-radius: 80px;
+  border-radius: 100px;
   max-width: 80px;
-  max-height: 80px;
+  max-height: 100px;
 }
 
 body, ul, li, p {
@@ -43,8 +43,6 @@ a {
   margin-top: 2%;
 }
 
-/*HEAD(Cabeça) menu do site*/
-
 .header {
   background: red;
   display: flex;
@@ -74,7 +72,6 @@ nav ul li a:hover {
   font-size: 1.3rem;
   border-radius: 5px;
 }
-/* imagem da capa do site/ TELA INICIAL*/
 .imagemCapa {
   display: inline-block;
   position: relative;
@@ -115,6 +112,7 @@ p {
 .conteudo {
   margin-left: 3%;
   margin-right: 3%;
+  display: block;
 }
 
 .cabecalho-topico {
@@ -138,10 +136,11 @@ p {
 }
 
 .conteudoVideo {
-  display: inline-flex;
+  display:inline-flex;
   column-gap: 5rem;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
+
 }
 
 .cardVideo {
@@ -150,11 +149,11 @@ p {
   text-align: center;
 }
 
-.cardVideo iframe{
+.cardVideo > iframe{
   box-shadow: black 1px 3px 5px;
   border-radius: 20px;
 }
-.cardVideo > iframe {
+.cardVideo > iframe{
   width: 100%;
   height: 300px!important;
   margin-top: 3%;
@@ -167,28 +166,28 @@ p {
   box-shadow: black 1px 3px 5px;
 }
 
-.tituloNews {
+.tituloNews{
   font-weight: bold;
   color: #000000;
 }
 
-.descNews > iframe {
+.descNews > iframe{
   width: 100%;
   height: 250px!important;
   margin-top: 5%;
 }
 
 .noticiasCards {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   width: 100%;
   margin: 1%;
 }
 
-.descNews {
+.descNews{
   margin: 2%;
   padding: 2%;
-  width: 50%;
+  width: 60%;
   text-align: center;
   background-color: rgb(68, 2, 190) ;
   border-radius: 10px;
@@ -222,8 +221,8 @@ p {
 }
 
 .imagemLinkedin {
-  width: 60 px;
-  height: 60 px;
+  width: 70px;
+  height: 70px;
 }
 
 .estiloLinks{
@@ -234,7 +233,18 @@ color: black;
 
 
 .imgnoticias img{
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 50%;
   border-radius: 20px;
+}
+
+.txt{
+  box-align: center;
+  padding: 20px;
+  
+}
+
+.box1{
+    width: 100%;
+    height: 160px;
 }
