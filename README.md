@@ -1,1 +1,1 @@
-# grupo02gamaitautech.github.io
+# g2.github.io
