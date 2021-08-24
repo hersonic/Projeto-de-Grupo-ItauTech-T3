@@ -68,7 +68,7 @@ a {
   padding: 10px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover  {
   background: #ce9c4d;
   font-size: 1.3rem;
   border-radius: 5px;
@@ -181,6 +181,7 @@ p {
   width: 100%;
   height: 250px!important;
   margin-top: 5%;
+  font-family: Helvetica, sans-serif;
 }
 
 .noticiasCards {
@@ -207,6 +208,7 @@ p {
   font-weight: lighter;
   font-size: 1.2rem ;
   color: #070707;
+  font-family: 'helvetica', sans-serif;
 }
 
 .footer {
