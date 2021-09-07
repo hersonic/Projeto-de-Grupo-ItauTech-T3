@@ -1,1 +1,1 @@
-# g2.github.io
+# https://g2news.netlify.app
